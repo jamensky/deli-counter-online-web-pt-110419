@@ -1,6 +1,7 @@
 def line (katz_deli)
   if katz_deli.length == 0 
     puts "The line is currently empty."
+<<<<<<< HEAD
   elsif katz_deli.length > 0
    i = 0 
    x = ["The line is currently:"]
@@ -26,5 +27,13 @@ def now_serving (katz_deli)
  end 
 end 
 
+=======
+  end 
+end 
+
+def take_a_number(katz_deli)
+  katz_deli.each_with_index{|x, y| puts 
+end 
+>>>>>>> 3667d0dd649eae514ff424e371db38fbbaf81951
 
 
